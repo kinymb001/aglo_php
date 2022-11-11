@@ -11,7 +11,7 @@ class Collection
 		return $this->listsQuestion ;
 	}
 
-	public function fillter($callback){
+	public function filter($callback){
 		return array_filter($this->listsQuestion,$callback, ARRAY_FILTER_USE_BOTH);
 	}
 	public function first(){
